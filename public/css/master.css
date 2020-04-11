@@ -1,0 +1,243 @@
+body {
+    padding: 0;
+    margin: 30px;
+    font-family: futura;
+    background-color: #f79e9e;
+    border: 1px solid white;
+}
+
+
+
+.logo{
+width: 25rem;
+height: 10rem;
+margin-left: 30px;
+margin-top: 50px;
+}
+
+.top{
+  height: 20rem;
+  background-color: white;
+}
+
+
+.top ul{
+  display:inline-block;
+  list-style-type: none;
+  float: right;
+  margin-top: 90px;
+  margin-right: 70px;
+
+}
+
+.top a{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-left:50px;
+  text-transform: uppercase;
+}
+
+
+h2{
+  font-size: 3rem;
+  font-style: italic;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+
+.uitgelicht{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  height: 35rem;
+  margin-top: 70px;
+  margin-right: 70px;
+}
+
+.img1{
+  width: 53rem;
+  margin-left: 70px;
+  border: 1px solid white;
+  grid-column: 1/3;
+  grid-row: 1/6;
+}
+
+h3{
+  color: black;
+  font-size: 1.5rem;
+  grid-column: 3;
+  margin-left: -230px;
+  color: white;
+
+}
+
+.wie{
+  font-style: italic;
+  line-height: 25px;
+  margin-top: 20px;
+  color: black;
+}
+
+.ziemeer{
+  color: white;
+}
+
+main{
+  height: 130rem;
+}
+
+
+.img9{
+  height: 300px;
+  width: 400px;
+  margin-bottom: -9rem;
+}
+
+
+.wrapper{
+  width: 100%;
+}
+.container{
+  max-width: 1250px;
+  margin: 10px auto;
+}
+
+
+.menu{
+  float: center;
+  margin-left: 41rem;
+}
+
+.menu ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 25px 20px;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.content{
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 30px 0;
+}
+
+.foto{
+  display: inline-block;
+  width: 31%;
+  float: left;
+  margin: 10rem 1% 0px;
+}
+
+
+.img9:hover{
+  opacity: 0.5;
+}
+.eerste:hover .descript, .tweede:hover .descript,.vierde:hover .descript,.zesde:hover .descript, .derde:hover .descript, .vijfde:hover .descript,.zevende:hover .descript,.achtste:hover .descript,.negende:hover .descript,.tiende:hover .descript,.elf:hover .descript,
+.twaalf:hover .descript{
+  visibility: visible;
+  opacity: 1;
+}
+
+.foto p{
+  color: white;
+  padding: 2rem;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0rem;
+}
+
+.menu ul li a:hover , .top ul a:hover{
+  color: blue;
+}
+
+.menu ul li a.active {
+  color: blue;
+}
+
+.leesmeer{
+  color: white;
+}
+
+footer{
+  height: 20rem;
+  background-color: white;
+  margin-top: 150px;
+}
+
+.details{
+}
+
+.img2{
+  margin: 50px auto 0 auto;
+  display: block;
+  width: 40%;
+}
+
+h4{
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 40px;
+  font-style: italic;
+}
+.history,.info,.sal{
+  color: white;
+  font-size: 1.5rem;
+  width: 70rem;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  font-style: italic;
+  line-height: 2rem;
+}
+
+
+.descriptB{
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 30px auto 0 auto;
+  line-height: 2rem;
+  border-bottom: 1px solid white;
+  width: 40rem;
+}
+
+.contactwat{
+  font-size: 1.5rem;
+  margin-left: 70px;
+  margin-top: 20px;
+  width: 80rem;
+  color: white;
+  line-height: 2rem;
+}
+
+
+.openings{
+  float: right;
+  margin-top:-20px;
+  border-left: 1px solid black
+}
+
+.openings li p{
+  font-size: 1.5rem;
+  text-align: center;
+  margin-right: 70px;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.adres{
+  font-size: 1.5rem;
+  padding-top: 30px;
+  padding-left: 70px;
+}

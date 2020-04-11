@@ -1,0 +1,75 @@
+{
+  "kunstjes": [
+    {
+      "name": "BrainChain",
+      "kunstenaar": "Willem Den Broeder",
+      "jaar": 2001,
+      "beschrijving": "brein vastgehouden door hand",
+      "wie": "Willem den Broeder, geboren 1951 te Schiedam waar hij nog steeds woont en creëert. Ontdekte het surrealisme al zeer vroeg! Technieken die hij hanteer zijn, schilderijen (acryl, olieverf, aquarel en gemengde technieken), etsen, tekeningen (houtskool, conté, potlood), automatisch schrijven, houtsnijwerk, objecten, frottage ,digitale techniek, korte films en ‘semi ready-mades’ daarnaast korte automatische verhalen en voorziet hij zijn werken soms van poëzie.",
+      "imgURL": "./img/willembrein.jpg"
+
+    },
+    {
+      "name": "De volharding der herinneringen",
+      "kunstenaar": "Salvador Dali",
+      "jaar": 1931,
+      "beschrijving": "olieverf op linnen",
+      "imgURL": "./img/geheugen.jpg"
+    },{
+      "name": "De rode toren",
+      "kunstenaar": "Giorgio De Chirico",
+      "jaar": 1913,
+      "beschrijving": "Een rode toren.",
+      "imgURL": "./img/rode.jpg"
+    },{
+      "name": "Avonduur",
+      "kunstenaar": "J.H. Moesman",
+      "jaar": 1962,
+      "beschrijving": "Vrouw aan tafel met een verboren hoofd.",
+      "imgURL": "./img/avonduur.jpeg"
+    },{
+      "name": "Het rijk der lichten",
+      "kunstenaar": "René Magritte",
+      "jaar": 1954,
+      "beschrijving": "het verrassende beeld van een nachtelijke scène in het onderste gedeelte, terwijl daarboven een stralende lichtbewolkte hemel wordt afgebeeld.",
+      "imgURL": "./img/rijk.jpg"
+    },{
+      "name": "Golconde",
+      "kunstenaar": "René Magritte",
+      "jaar": 1953,
+      "beschrijving": "Het stuk toont een scène van 'regenende mannen', bijna identiek aan elkaar gekleed in donkere overjassen en bolhoeden.",
+      "imgURL": "./img/Golconde.jpg"
+    },{
+      "name": "Le canapé vert",
+      "kunstenaar": "Paul Delvaux",
+      "jaar": 1944,
+      "beschrijving": "Een groene sofa.",
+      "imgURL": "./img/canape.jpeg"
+    },{
+      "name": "Hunting Dragon",
+      "kunstenaar": "Jacek Yerka",
+      "jaar": 1997,
+      "beschrijving": "Een draak in de vorm van een boot.",
+      "imgURL": "./img/dragon.jpg"
+    }
+    ,{
+      "name": "The three sphinxes of bikini",
+      "kunstenaar": "Salvador Dali",
+      "jaar": 1947,
+      "beschrijving": "Het schilderij bestaat uit een hoofd, een boom en een nucleaire paddestoel.",
+      "imgURL": "./img/sphinxes.jpg"
+    },{
+      "name": "The temptation of st Anthony",
+      "kunstenaar": "Salvador Dali",
+      "jaar": 1946,
+      "beschrijving": "Het verbeeldt een woestijnachtig landschap: een lage horizonlijn met hoge wolken en donkere, warme tinten in een azuurblauwe lucht. ",
+      "imgURL": "./img/temptation.jpg"
+    },{
+      "name": "The Harlequin's Carnival",
+      "kunstenaar": "Joan Miro",
+      "jaar": 1924,
+      "beschrijving": "Dit specifieke schilderij is gecentreerd op een harlekijn op een kermis.",
+      "imgURL": "./img/carnival.jpg"
+    }
+  ]
+}

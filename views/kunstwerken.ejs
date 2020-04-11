@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="nl-BE" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Museumapp</title>
+    <link rel="stylesheet" href="/css/reset_plus.css">
+    <link rel="stylesheet" href="/css/master.css">
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+      <%- include('header'); -%>
+
+  </head>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <main>
+
+
+
+   <div class="wrapper">
+     <header class="header">
+       <div class="container">
+         <div class="menu">
+           <ul>
+             <li> <a data-filter=".all" href="#" class="active">Alles</a> </li>
+             <li> <a data-filter=".eersteperiode" href="#">Voor 1940</a> </li>
+             <li> <a data-filter=".tweedeperiode" href="#">1941-1960</a> </li>
+             <li> <a data-filter=".derdeperiode" href="#">Na 1960</a> </li>
+
+           </ul>
+
+         </div>
+
+       </div>
+
+
+     </header>
+     <div class="content">
+       <div class="container">
+
+         <div class="eerste">
+           <figure class="foto derdeperiode all">
+             <img src= "<%=kunst[0].imgURL %>" class= "img9" >
+             <figcaption>
+             <p class="descript">Naam: <%=kunst[0].name %> <br> Kunstenaar: <%=kunst[0].kunstenaar %> <br> Jaar: <%=kunst[0].jaar %> <br> Beschrijving: <%=kunst[0].beschrijving %> </p>
+             </figcaption>
+           </figure>
+         </div>
+
+         <div class="tweede">
+           <figure class="foto eersteperiode all">
+             <img src= "<%=kunst[1].imgURL %>" class= "img9" >
+             <figcaption>
+             <p class="descript">Naam: <%=kunst[1].name %> <br> Kunstenaar: <%=kunst[1].kunstenaar %> <br> Jaar: <%=kunst[1].jaar %> <br> Beschrijving: <%=kunst[1].beschrijving %> </p>
+             </figcaption>
+           </figure>
+         </div>
+
+         <div class="derde">
+           <figure class="foto eersteperiode all">
+             <img src= "<%=kunst[2].imgURL %>" class= "img9" >
+             <figcaption>
+             <p class="descript">Naam: <%=kunst[2].name %> <br> Kunstenaar: <%=kunst[2].kunstenaar %> <br> Jaar: <%=kunst[2].jaar %> <br> Beschrijving: <%=kunst[2].beschrijving %> </p>
+             </figcaption>
+           </figure>
+         </div>
+
+         <div class="vierde">
+           <figure class="foto derdeperiode all">
+             <img src= "<%=kunst[3].imgURL %>" class= "img9" >
+             <figcaption>
+             <p class="descript">Naam: <%=kunst[3].name %> <br> Kunstenaar: <%=kunst[3].kunstenaar %> <br> Jaar: <%=kunst[3].jaar %> <br> Beschrijving: <%=kunst[3].beschrijving %> </p>
+             </figcaption>
+           </figure>
+         </div>
+
+         <div class="vijfde">
+           <figure class="foto tweedeperiode all">
+             <img src= "<%=kunst[4].imgURL %>" class= "img9" >
+             <figcaption>
+             <p class="descript">Naam: <%=kunst[4].name %> <br> Kunstenaar: <%=kunst[4].kunstenaar %> <br> Jaar: <%=kunst[4].jaar %> <br> Beschrijving: <%=kunst[4].beschrijving %> </p>
+             </figcaption>
+
+           </figure>
+         </div>
+
+         <div class="zesde">
+           <figure class="foto tweedeperiode all">
+             <img src= "<%=kunst[5].imgURL %>" class= "img9" >
+             <figcaption>
+             <p class="descript">Naam: <%=kunst[5].name %> <br> Kunstenaar: <%=kunst[5].kunstenaar %> <br> Jaar: <%=kunst[5].jaar %> <br> Beschrijving: <%=kunst[5].beschrijving %> </p>
+             </figcaption>
+           </figure>
+         </div>
+
+         <div class="zevende">
+           <figure class="foto tweedeperiode all">
+             <img src= "<%=kunst[6].imgURL %>" class= "img9" >
+             <figcaption>
+             <p class="descript">Naam: <%=kunst[6].name %> <br> Kunstenaar: <%=kunst[6].kunstenaar %> <br> Jaar: <%=kunst[6].jaar %> <br> Beschrijving: <%=kunst[6].beschrijving %> </p>
+             </figcaption>
+           </figure>
+         </div>
+
+         <div class="achtste">
+           <figure class="foto derdeperiode all">
+             <img src= "<%=kunst[7].imgURL %>" class= "img9" >
+             <figcaption>
+             <p class="descript">Naam: <%=kunst[7].name %> <br> Kunstenaar: <%=kunst[7].kunstenaar %> <br> Jaar: <%=kunst[7].jaar %> <br> Beschrijving: <%=kunst[7].beschrijving %> </p>
+             </figcaption>
+           </figure>
+         </div>
+
+         <div class="negende">
+           <figure class="foto tweedeperiode all">
+             <img src= "<%=kunst[8].imgURL %>" class= "img9" >
+             <figcaption>
+             <p class="descript">Naam: <%=kunst[8].name %> <br> Kunstenaar: <%=kunst[8].kunstenaar %> <br> Jaar: <%=kunst[8].jaar %> <br> Beschrijving: <%=kunst[8].beschrijving %> </p>
+             </figcaption>
+           </figure>
+         </div>
+
+         <div class="tiende">
+           <figure class="foto tweedeperiode all">
+             <img src= "<%=kunst[9].imgURL %>" class= "img9" >
+             <figcaption>
+             <p class="descript">Naam: <%=kunst[9].name %> <br> Kunstenaar: <%=kunst[9].kunstenaar %> <br> Jaar: <%=kunst[9].jaar %> <br> Beschrijving: <%=kunst[9].beschrijving %> <br> <a class="leesmeer" href="/detail"> Lees meer.</a> </p>
+             </figcaption>
+           </figure>
+         </div>
+
+         <div class="elf">
+           <figure class="foto eersteperiode all">
+             <img src= "<%=kunst[10].imgURL %>" class= "img9" >
+             <figcaption>
+             <p class="descript">Naam: <%=kunst[10].name %> <br> Kunstenaar: <%=kunst[10].kunstenaar %> <br> Jaar: <%=kunst[10].jaar %> <br> Beschrijving: <%=kunst[10].beschrijving %> </p>
+             </figcaption>
+           </figure>
+         </div>
+
+
+       </div>
+
+     </div>
+
+   </div>
+
+
+   <script src="./js/isotope.js"></script>
+   <script src="./js/script.js"></script>
+  </main>
+
+
+
+
+
+
+
+
+<%- include('footer'); -%>

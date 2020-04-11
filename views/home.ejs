@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="nl-BE" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Museumapp</title>
+    <link rel="stylesheet" href="/css/reset_plus.css">
+    <link rel="stylesheet" href="/css/master.css">
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+      <%- include('header'); -%>
+
+  </head>
+  <body>
+
+    <h2>Uitgelicht vandaag</h2>
+
+    <div class="uitgelicht">
+      <img src= "<%=kunst[0].imgURL %>" class= "img1" >
+      <h3 class="naam"> Naam: <%=kunst[0].name %></h3>
+      <h3 class="kunstenaar"> Kunstenaar: <%=kunst[0].kunstenaar %> </h3>
+      <h3 class="jaar"> Jaar: <%=kunst[0].jaar %> </h3>
+        <h3 class="beschrijving"> Beschrijving: <%=kunst[0].beschrijving %></h3>
+      <h3 class="wie"> Wie is Willem? <br> <%=kunst[0].wie %> <br> <a class="ziemeer" href="/kunstwerken">Ontdek hier meer!</a> </h3>
+
+
+    </div>
+
+    <%- include('footer'); -%>
