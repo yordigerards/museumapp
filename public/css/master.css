@@ -224,7 +224,7 @@ h4{
 
 .openings{
   float: right;
-  margin-top:-20px;
+  margin-top:-50px;
   border-left: 1px solid black
 }
 
@@ -240,4 +240,11 @@ h4{
   font-size: 1.5rem;
   padding-top: 30px;
   padding-left: 70px;
+  padding-bottom: 30px;
+}
+
+.linkje{
+  margin-top: 20px;
+  margin-left: 70px;
+  font-size: 1.5rem;
 }
